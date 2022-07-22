@@ -67,7 +67,6 @@ app.get("/url/emotion", (req,res) => {
 
 //The endpoint for the webserver ending with /url/sentiment
 app.get("/url/sentiment", (req,res) => {
-    app.get("/url/sentiment", (req,res) => {
         let urlToAnalyze = req.query.url
         const analyzeParams = 
         {
@@ -91,12 +90,10 @@ app.get("/url/sentiment", (req,res) => {
         .catch(err => {
             return res.send("Could not do desired operation "+err);
         });
-    });
 });
 
 //The endpoint for the webserver ending with /text/emotion
 app.get("/text/emotion", (req,res) => {
-    app.get("/text/emotion", (req,res) => {
         let textToAnalyze = req.query.text
         const analyzeParams = 
         {
@@ -120,11 +117,9 @@ app.get("/text/emotion", (req,res) => {
         .catch(err => {
             return res.send("Could not do desired operation "+err);
         });
-    });
 });
 
 app.get("/text/sentiment", (req,res) => {
-    app.get("/text/sentiment", (req,res) => {
         let textToAnalyze = req.query.text
         const analyzeParams = 
         {
@@ -148,7 +143,6 @@ app.get("/text/sentiment", (req,res) => {
         .catch(err => {
             return res.send("Could not do desired operation "+err);
         });
-    });
 });
 
 let server = app.listen(8080, () => {

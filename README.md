@@ -8,7 +8,7 @@ cd *erver*
 ```
 The above CDs into the backend and
 ```
-cd *lient*
+cd *Client*
 ```
 That CDs into the frontend
 

@@ -1,5 +1,5 @@
 # IBM Natural Language Understanding Demo
-This was a class project for my cloud developer foundations cert.  You can view it here: <a target="_blank" href="https://nlu.theliberry.com">Click</a>  It shows some of the capability of IBM Watson's Natural Language Understanding API.
+This was a class project for my cloud developer foundations cert.  It shows some of the capability of IBM Watson's Natural Language Understanding API.
 
 To install it, clone the repo.  CD into the app directory.
 
